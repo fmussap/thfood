@@ -150,6 +150,20 @@
   section { padding: 20px 0 }
   h1 { font-size: 180%; }
   h2 { font-size: 140% }
+
+  .works-step { margin-bottom: 20px; }
+  .works-step p { padding-top: 0; padding-bottom: 1px;}
+  .works-step:last-of-type { margin-bottom: 25px; }
+  .works-step div {
+    border: 1.5px solid #F39C12;
+    font-size: 110%;
+    height: 38px;
+    margin-right: 20px;
+    padding: 6px;
+    text-align: center;
+    width: 38px;
+  }
+
   blockquote, cite {
     margin-top: 8px;
     font-size: 94%

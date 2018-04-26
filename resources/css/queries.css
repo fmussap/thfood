@@ -60,7 +60,8 @@
   body { font-size: 16px; }
   section { padding: 30px 0 }
   h1 { font-size: 200%; }
-  h2 { font-size: 160% }
+  h2 { font-size: 160%;
+   }
 
   .long-p {
     margin-left: 0;
@@ -131,7 +132,10 @@
     width: 40px;
   }
 
-  blockquote, cite { margin-top: 20px; }
+  blockquote, cite { margin-top: 10px; }
+  .section-testimonials h2 {
+    margin-bottom: 5px;
+  }
 
   .footer-nav,
   .social-links {
@@ -147,8 +151,18 @@
   h1 { font-size: 180%; }
   h2 { font-size: 140% }
   blockquote, cite {
-    margin-top: 10px;
-    font-size: 95%
+    margin-top: 8px;
+    font-size: 94%
+  }
+
+  .section-testimonials .col {
+    margin: 0;
+  }
+
+  blockquote:before {
+    font-size: 400%;
+    left: -2px;
+    top: -2px;
   }
 
   .main-nav li {

@@ -18,6 +18,8 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .clearfix {zoom: 1}

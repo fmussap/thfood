@@ -20,14 +20,6 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.backdrop {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100vh;
-}
-
 .clearfix {zoom: 1}
 .clearfix::after {
   content: '.';

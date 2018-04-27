@@ -221,25 +221,22 @@ a:active {
 /* Header */
 /* ---------------------------------- */
 
+.backdrop {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
 header {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
   height:100vh;
-  background-attachment: fixed;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  /* background-attachment: fixed;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/header.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.backdrop {
-  height:100vh;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
+  height: 100vh; */
 }
 
 .header-text-box {
